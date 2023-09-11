@@ -20,3 +20,7 @@ const book7 = new Book("Fahrenheit 451", "Ray Bradbury", "158 pages", "not read 
 const book8 = new Book("Nineteen Eighty-Four", "George Orwell", "328 pages", "not read yet");
 const book9 = new Book("The Adventures of Tom Sawyer", "Mark Twain", "274 pages", "not read yet");
 const book10 = new Book("Dune", "Frank Herbert", "896 pages", "not read yet");
+
+function addBooksToLibrary(...args) {
+  myLibrary.push(args)
+}
