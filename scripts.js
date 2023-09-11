@@ -24,3 +24,5 @@ const book10 = new Book("Dune", "Frank Herbert", "896 pages", "not read yet");
 function addBooksToLibrary(...args) {
   myLibrary.push(args)
 }
+
+addBooksToLibrary(book1, book2, book3, book4, book5, book6, book7, book8, book9, book10);
