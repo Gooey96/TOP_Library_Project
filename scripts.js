@@ -27,6 +27,19 @@ function addBooksToLibrary(...args) {
 
 addBooksToLibrary(book1, book2, book3, book4, book5, book6, book7, book8, book9, book10);
 
+const container = document.querySelector('.container');
+const para = document.createElement('p');
+
+function displayBooks() {
+  myLibrary.forEach(book => {
+    para.textContent = `${book.info()}`;
+    container.appendChild(para);
+  });
+}
+// It works but somehow book10 is the one that
+// is display rather than book1
+displayBooks();
+
 console.log(book1.info());
 console.log(book2.info());
 console.log(book3.info());
