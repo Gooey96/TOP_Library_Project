@@ -32,7 +32,7 @@ const container = document.querySelector('.container');
 function displayBooks() {
   myLibrary.forEach(book => {
     const para = document.createElement('p');
-    para.textContent = `${book.info()}`;
+    para.textContent = book.info();
     container.appendChild(para);
   });
 }
