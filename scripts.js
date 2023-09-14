@@ -36,9 +36,7 @@ function displayBooks() {
     container.appendChild(para);
   });
 }
-// It works but somehow book10 is the one that
-// is display rather than book1
-// also not finished yet :)
+
 displayBooks();
 
 console.log(book1.info());
