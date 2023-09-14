@@ -33,6 +33,7 @@ function displayBooks() {
   myLibrary.forEach(book => {
     const para = document.createElement('p');
     para.textContent = book.info();
+    para.dataset.index = myLibrary.indexOf(book);
     container.appendChild(para);
   });
 }
