@@ -40,6 +40,19 @@ function displayBooks() {
 
 displayBooks();
 
+// This code is probably useless but 
+// something is better than nothing
+const para = document.getElementsByTagName('p');
+const count = para.length;
+
+for(let i = 0; i < count; i++) {
+  const p_array = para[i];
+
+  p_array.addEventListener('click', function() {
+    p_array.remove();
+  })
+}
+
 console.log(book1.info());
 console.log(book2.info());
 console.log(book3.info());
