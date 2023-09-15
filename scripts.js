@@ -27,18 +27,18 @@ function addBooksToLibrary(...args) {
 
 addBooksToLibrary(book1, book2, book3, book4, book5, book6, book7, book8, book9, book10);
 
-const container = document.querySelector('.container');
+// const container = document.querySelector('.container');
 
-function displayBooks() {
-  myLibrary.forEach(book => {
-    const para = document.createElement('p');
-    para.textContent = book.info();
-    para.dataset.index = myLibrary.indexOf(book);
-    container.appendChild(para);
-  });
-}
+// function displayBooks() {
+//   myLibrary.forEach(book => {
+//     const para = document.createElement('p');
+//     para.textContent = book.info();
+//     para.dataset.index = myLibrary.indexOf(book);
+//     container.appendChild(para);
+//   });
+// }
 
-displayBooks();
+// displayBooks();
 
 // This code is probably useless but 
 // something is better than nothing
