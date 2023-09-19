@@ -12,10 +12,6 @@
   height: 100vh;
 }
 
-.form-container {
-  margin-bottom: 220px;
-}
-
 .sidebar {
   padding: 30px 25px 20px;
 }
@@ -23,6 +19,10 @@
 h1 {
   font-size: 50px;
   margin-bottom: 40px;
+}
+
+.form-container {
+  margin-bottom: 220px;
 }
 
 .jar {
