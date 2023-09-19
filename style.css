@@ -12,6 +12,10 @@
   height: 100vh;
 }
 
+.form-container {
+  margin-bottom: 220px;
+}
+
 .sidebar {
   padding: 30px 25px 20px;
 }
