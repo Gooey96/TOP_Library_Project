@@ -29,6 +29,13 @@ h1 {
   margin-bottom: 20px;
 }
 
+label:not(:last-child) {
+  color: #B4886B;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
 .form-container button {
   height: 60px;
   width: 200px;
