@@ -28,3 +28,9 @@ h1 {
 .jar {
   margin-bottom: 50px;
 }
+
+.form-container button {
+  height: 60px;
+  width: 200px;
+  font-size: large;
+}
