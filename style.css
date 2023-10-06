@@ -39,6 +39,7 @@ label:not(:last-child) {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
+  font-size: large;
 }
 
 input[type=text],
