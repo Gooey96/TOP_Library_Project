@@ -29,6 +29,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+.jar:nth-child(4) {
+  margin-top: 40px;
+  font-size: large;
+}
+
 label:not(:last-child) {
   color: #B4886B; /* temporary color */
   font-weight: bold;
