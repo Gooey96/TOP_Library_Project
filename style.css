@@ -30,7 +30,7 @@ h1 {
 }
 
 label:not(:last-child) {
-  color: #B4886B;
+  color: #B4886B; /* temporary color */
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
