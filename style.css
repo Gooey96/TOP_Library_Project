@@ -27,11 +27,11 @@ h1 {
 
 .jar {
   margin-bottom: 20px;
+  font-size: large;
 }
 
 .jar:nth-child(4) {
   margin-top: 40px;
-  font-size: large;
 }
 
 label:not(:last-child) {
@@ -39,7 +39,6 @@ label:not(:last-child) {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
-  font-size: large;
 }
 
 input[type=text],
