@@ -72,3 +72,11 @@ input[type=number]:focus {
 .sidebar p {
   font-size: large;
 }
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 100px;
+}
