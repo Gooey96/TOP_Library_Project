@@ -68,3 +68,7 @@ input[type=number]:focus {
   font-size: large;
   margin-top: 30px;
 }
+
+.sidebar p {
+  font-size: large;
+}
