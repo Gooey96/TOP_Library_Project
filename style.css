@@ -52,6 +52,7 @@ input[type=number] {
   margin-top: 4px;
   height: 30px;
   font-size: larger;
+  background-color: aquamarine;
 }
 
 .form-container button {
