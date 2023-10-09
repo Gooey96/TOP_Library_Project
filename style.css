@@ -39,7 +39,7 @@ label:not(:last-child) {
   color: #B4886B; /* temporary color */
   font-weight: bold;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 input[type=text],
