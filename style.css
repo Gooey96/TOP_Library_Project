@@ -74,6 +74,10 @@ input[type=number]:focus {
   font-size: large;
 }
 
+.main-content {
+  background-color: beige;
+}
+
 .header-container {
   display: flex;
   justify-content: center;
