@@ -84,3 +84,9 @@ input[type=number]:focus {
   font-size: larger;
   background-color: goldenrod;
 }
+
+.header-container button {
+  width: 130px;
+  height: 60px;
+  font-size: large;
+}
