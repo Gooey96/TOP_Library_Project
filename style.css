@@ -99,4 +99,5 @@ input[type=number]:focus {
   justify-content: center;
   height: 100px;
   font-size: 3rem;
+  margin-bottom: 30px;
 }
