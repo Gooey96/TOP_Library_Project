@@ -83,10 +83,8 @@ input[type=number]:focus {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border: 1px solid black;
   height: 120px;
   font-size: larger;
-  background-color: goldenrod;
 }
 
 .header-container button {
