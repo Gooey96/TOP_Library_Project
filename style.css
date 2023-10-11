@@ -92,3 +92,11 @@ input[type=number]:focus {
   height: 60px;
   font-size: large;
 }
+
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-size: 3rem;
+}
