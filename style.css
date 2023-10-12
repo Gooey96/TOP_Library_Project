@@ -45,6 +45,9 @@ label:not(:last-child) {
 input[type=checkbox] {
   height: 20px;
   width: 20px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 3px;
 }
 
 input[type=text],
