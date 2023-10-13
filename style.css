@@ -117,3 +117,9 @@ input[type=number]:focus {
   grid-auto-rows: 1fr;
   gap: 40px;
 }
+
+.cards {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 270px;
+}
