@@ -125,4 +125,8 @@ input[type=number]:focus {
   border: 1px solid black;
   border-radius: 10px;
   height: 270px;
+  background-image: url(hardcover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
