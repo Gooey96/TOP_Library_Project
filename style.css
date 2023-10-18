@@ -134,7 +134,9 @@ input[type=number]:focus {
 }
 
 .text {
+  padding: 0px 50px;
   font-weight: bold;
   font-size: large;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
