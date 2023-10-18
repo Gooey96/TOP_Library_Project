@@ -139,6 +139,7 @@ input[type=number]:focus {
   font-size: large;
   margin-bottom: 20px;
   margin-left: 20px;
+  border: 1px solid black; /* for debugging */
 }
 
 .cards button {
