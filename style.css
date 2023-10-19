@@ -129,22 +129,27 @@ input[type=number]:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
   padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text {
-  padding: 0px 50px;
+  text-align: center;
+  /* padding: 0px 50px; */
   font-weight: bold;
   font-size: large;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   margin-left: 20px;
-  border: 1px solid black; /* for debugging */
+  /* border: 1px solid black; for debugging */
+  height: 50px;
+  width: 180px;
 }
 
-.cards button {
+/* .cards button {
   display: block;
   margin-left: 105px;
   height: 30px;
   width: 100px;
-}
+} */
