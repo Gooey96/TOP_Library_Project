@@ -147,9 +147,13 @@ input[type=number]:focus {
   width: 180px;
 }
 
-/* .cards button {
-  display: block;
-  margin-left: 105px;
-  height: 30px;
+.cards button {
+  margin-left: 15px;
+  height: 20px;
   width: 100px;
-} */
+
+  /* display: block;
+  margin-left: 105px;
+  
+   */
+}
