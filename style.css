@@ -135,10 +135,6 @@ input[type=number]:focus {
   place-items: center;
 }
 
-.text-holder {
-  border: 1px solid black;
-}
-
 .text {
   text-align: center;
   /* padding: 0px 50px; */
