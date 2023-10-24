@@ -130,9 +130,9 @@ input[type=number]:focus {
   background-repeat: no-repeat;
   background-size: cover;
   /* padding-top: 15px; */
-  display: grid;
+  /* display: grid;
   grid-template-rows: repeat(3 1fr);
-  place-items: center;
+  place-items: center; */
 }
 
 .text {
