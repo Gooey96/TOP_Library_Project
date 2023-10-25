@@ -135,17 +135,12 @@ input[type=number]:focus {
   align-items: center;
 }
 
-.cards .text:first-child,
-.cards .text:nth-child(2) {
-  margin-bottom: 20px;
-}
-
 .text {
   text-align: center;
   /* padding: 0px 50px; */
   font-weight: bold;
   font-size: large;
-  /* margin-bottom: 20px; */
+  margin-bottom: 30px;
   margin-left: 20px;
   /* border: 1px solid black; for debugging */
   /* height: 50px; */
