@@ -152,6 +152,14 @@ input[type=number]:focus {
   width: 180px;
 }
 
+/* .btn button {
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  cursor: pointer;
+} */
+
 /* .cards button {
   margin-left: 15px;
   height: 20px;
