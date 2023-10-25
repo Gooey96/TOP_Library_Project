@@ -166,12 +166,3 @@ input[type=number]:focus {
   border:none;
   cursor: pointer;
 }
-
-/* .cards button {
-  margin-left: 15px;
-  height: 20px;
-  width: 100px;
-
-  display: block;
-  margin-left: 105px;
-} */
