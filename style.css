@@ -161,11 +161,11 @@ input[type=number]:focus {
   font-weight: bold;
 }
 
-/* .cards button {
+.cards button {
   background:none;
   border:none;
   cursor: pointer;
-} */
+}
 
 /* .cards button {
   margin-left: 15px;
