@@ -13,7 +13,7 @@
 
 .sidebar {
   padding: 30px 25px 20px;
-  background-color: aquamarine; /* temporary color */
+  background-color: #E9C1AF; 
   position: sticky;
   top: 0;
   height: 100vh;
@@ -23,6 +23,7 @@
 h1 {
   font-size: 50px;
   margin-bottom: 50px;
+  color: #1F3E59;
 }
 
 img {
@@ -44,7 +45,7 @@ img {
 }
 
 label:not(:last-child) {
-  color: #B4886B; /* temporary color */
+  color: #1F3E59;
   font-weight: bold;
   display: block;
   margin-bottom: 7px;
@@ -61,14 +62,14 @@ input[type=checkbox] {
 input[type=text],
 input[type=number] {
   border: none;
-  border-bottom: 2px solid red; /* temporary color */
+  border-bottom: 2px solid black;
   border-bottom-style: dotted;
   width: 100%;
   padding: 2px 2px;
   margin-top: 4px;
   height: 30px;
   font-size: larger;
-  background-color: aquamarine;
+  background-color: #E9C1AF;
 }
 
 input[type=text]:focus,
@@ -91,7 +92,7 @@ input[type=number]:focus {
 }
 
 .main-content {
-  background-color: beige;
+  background-color: #F7F1F0;
 }
 
 .header-container {
