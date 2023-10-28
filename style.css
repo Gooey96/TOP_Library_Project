@@ -13,7 +13,7 @@
 
 .sidebar {
   padding: 30px 25px 20px;
-  background-color: #E9C1AF; 
+  background-color: #ffe5b4; 
   position: sticky;
   top: 0;
   height: 100vh;
@@ -44,7 +44,6 @@ img {
 }
 
 label:not(:last-child) {
-  font-weight: bold;
   display: block;
   margin-bottom: 7px;
 }
@@ -67,12 +66,12 @@ input[type=number] {
   margin-top: 4px;
   height: 30px;
   font-size: larger;
-  background-color: #E9C1AF;
+  background-color: #ffe5b4;
 }
 
 input[type=text]:focus,
 input[type=number]:focus {
-  border-bottom: 2px solid white; /* temporary color */
+  border-bottom: 2px solid #cc5500;
   border-bottom-style: dotted;
   outline: none;
 }
@@ -82,7 +81,8 @@ input[type=number]:focus {
   width: 200px;
   font-size: large;
   margin-top: 30px;
-  background-color: blueviolet; /* temporary color */
+  background-color: #cc5500;
+  border-radius: 10px;
 }
 
 .sidebar p {
@@ -90,7 +90,7 @@ input[type=number]:focus {
 }
 
 .main-content {
-  background-color: #F7F1F0;
+  background-color: #f5f5dc;
 }
 
 .header-container {
