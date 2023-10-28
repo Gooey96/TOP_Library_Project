@@ -23,7 +23,6 @@
 h1 {
   font-size: 50px;
   margin-bottom: 50px;
-  color: #1F3E59;
 }
 
 img {
@@ -45,7 +44,6 @@ img {
 }
 
 label:not(:last-child) {
-  color: #1F3E59;
   font-weight: bold;
   display: block;
   margin-bottom: 7px;
