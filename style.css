@@ -106,6 +106,7 @@ input[type=number]:focus {
   width: 130px;
   height: 60px;
   font-size: large;
+  border-radius: 10px;
 }
 
 .para {
