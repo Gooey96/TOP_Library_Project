@@ -83,6 +83,7 @@ input[type=number]:focus {
   margin-top: 30px;
   background-color: #cc5500;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .sidebar p {
@@ -109,6 +110,7 @@ input[type=number]:focus {
   border-radius: 10px;
   background-color: #BE3E3E;
   color: white;
+  cursor: pointer;
 }
 
 .para {
