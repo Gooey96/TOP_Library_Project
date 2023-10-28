@@ -107,6 +107,8 @@ input[type=number]:focus {
   height: 60px;
   font-size: large;
   border-radius: 10px;
+  background-color: #BE3E3E;
+  color: white;
 }
 
 .para {
