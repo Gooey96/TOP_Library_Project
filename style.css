@@ -96,6 +96,14 @@ input[type=number]:focus {
   font-family: nunito;
 }
 
+.submit:hover {
+  transform: scale(1.1);
+}
+
+.submit:active {
+  transform: scale(1);
+}
+
 .sidebar p {
   font-size: large;
 }
