@@ -85,7 +85,7 @@ input[type=number]:focus {
   outline: none;
 }
 
-.form-container button {
+.submit {
   height: 60px;
   width: 200px;
   font-size: large;
