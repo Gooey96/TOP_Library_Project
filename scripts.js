@@ -10,8 +10,8 @@ function Book(title, author, pages, read) {
   }
 }
 
-function addBooksToLibrary(...args) {
-  myLibrary = args;
+function addBooksToLibrary(title, author, pages, read) {
+  Book(title, author, pages, read)
 }
 
 // const book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "208 pages", "not read yet");
