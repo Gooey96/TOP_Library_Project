@@ -57,14 +57,6 @@ label:not(:last-child) {
   margin-bottom: 7px;
 }
 
-input[type=checkbox] {
-  height: 20px;
-  width: 20px;
-  vertical-align: middle;
-  position: relative;
-  bottom: 3px;
-}
-
 input[type=text],
 input[type=number] {
   border: none;
