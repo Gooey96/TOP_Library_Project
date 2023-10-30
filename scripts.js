@@ -14,6 +14,36 @@ function addBooksToLibrary(title, author, pages, read) {
   Book(title, author, pages, read)
 }
 
+////////////////////////////////////////////////////////////////////////////
+
+// Not Finished yet :)
+
+// let libraryForm = document.getElementById('myForm');
+
+// libraryForm.addEventListener('submit', (e) => {
+//   e.preventDefault();
+
+//   let title = document.getElementById('title').value;
+//   let author = document.getElementById('author').value;
+//   let pages = `${document.getElementById('pages').value} pages`;
+//   let read = document.getElementById('read').value;
+//   let status = "";
+
+//   if(read == "true") {
+//     status = "Done Reading";
+//   }else {
+//     status = "Haven't Read"
+//   };
+
+//   console.log(title);
+//   console.log(author);
+//   console.log(pages);
+//   console.log(read);
+//   console.log(status);
+// })
+
+/////////////////////////////////////////////////////////////////////////////
+
 // const book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "208 pages", "not read yet");
 // const book2 = new Book("The Hobbit", "J.R.R. Tolkien", "295 pages", "not read yet");
 // const book3 = new Book("The Catcher in the Rye", "J. D. Salinger", "234 pages (may vary)", "not read yet");
