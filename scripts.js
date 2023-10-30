@@ -53,14 +53,14 @@ addBooksToLibrary(book1, book2, book3, book4, book5, book6, book7, book8, book9,
 //   })
 // }
 
-console.log(book1.info());
-console.log(book2.info());
-console.log(book3.info());
-console.log(book4.info());
-console.log(book5.info());
-console.log(book6.info());
-console.log(book7.info());
-console.log(book8.info());
-console.log(book9.info());
-console.log(book10.info());
-console.log(myLibrary);
+// console.log(book1.info());
+// console.log(book2.info());
+// console.log(book3.info());
+// console.log(book4.info());
+// console.log(book5.info());
+// console.log(book6.info());
+// console.log(book7.info());
+// console.log(book8.info());
+// console.log(book9.info());
+// console.log(book10.info());
+// console.log(myLibrary);
