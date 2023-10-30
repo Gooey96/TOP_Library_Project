@@ -26,20 +26,12 @@ function addBooksToLibrary(title, author, pages, read) {
 //   let title = document.getElementById('title').value;
 //   let author = document.getElementById('author').value;
 //   let pages = `${document.getElementById('pages').value} pages`;
-//   let read = document.getElementById('read').value;
-//   let status = "";
-
-//   if(read == "true") {
-//     status = "Done Reading";
-//   }else {
-//     status = "Haven't Read"
-//   };
+  // let read = document.querySelector('input[name=read]').value;
 
 //   console.log(title);
 //   console.log(author);
 //   console.log(pages);
 //   console.log(read);
-//   console.log(status);
 // })
 
 /////////////////////////////////////////////////////////////////////////////
