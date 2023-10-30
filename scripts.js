@@ -10,6 +10,10 @@ function Book(title, author, pages, read) {
   }
 }
 
+function addBooksToLibrary(...args) {
+  myLibrary = args;
+}
+
 // const book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "208 pages", "not read yet");
 // const book2 = new Book("The Hobbit", "J.R.R. Tolkien", "295 pages", "not read yet");
 // const book3 = new Book("The Catcher in the Rye", "J. D. Salinger", "234 pages (may vary)", "not read yet");
@@ -20,10 +24,6 @@ function Book(title, author, pages, read) {
 // const book8 = new Book("Nineteen Eighty-Four", "George Orwell", "328 pages", "not read yet");
 // const book9 = new Book("The Adventures of Tom Sawyer", "Mark Twain", "274 pages", "not read yet");
 // const book10 = new Book("Dune", "Frank Herbert", "896 pages", "not read yet");
-
-function addBooksToLibrary(...args) {
-  myLibrary = args;
-}
 
 // addBooksToLibrary(book1, book2, book3, book4, book5, book6, book7, book8, book9, book10);
 
