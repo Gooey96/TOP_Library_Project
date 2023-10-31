@@ -18,21 +18,21 @@ function addBooksToLibrary(title, author, pages, read) {
 
 // Not Finished yet :)
 
-// let libraryForm = document.getElementById('myForm');
+let libraryForm = document.getElementById('myForm');
 
-// libraryForm.addEventListener('submit', (e) => {
-//   e.preventDefault();
+libraryForm.addEventListener('submit', (e) => {
+  e.preventDefault();
 
-//   let title = document.getElementById('title').value;
-//   let author = document.getElementById('author').value;
-//   let pages = `${document.getElementById('pages').value} pages`;
-  // let read = document.querySelector('input[name=read]').value;
+  let title = document.getElementById('title').value;
+  let author = document.getElementById('author').value;
+  let pages = `${document.getElementById('pages').value} pages`;
+  let read = document.querySelector('input[type=radio]:checked').value;
 
-//   console.log(title);
-//   console.log(author);
-//   console.log(pages);
-//   console.log(read);
-// })
+  console.log(title);
+  console.log(author);
+  console.log(pages);
+  console.log(read);
+})
 
 /////////////////////////////////////////////////////////////////////////////
 
