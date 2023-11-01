@@ -28,6 +28,9 @@ libraryForm.addEventListener('submit', (e) => {
   let pages = `${document.getElementById('pages').value} pages`;
   let read = document.querySelector('input[type=radio]:checked').value;
   let cardsHolder = document.getElementById('cards-holder');
+  let newCards = document.createElement('div').classList.add('cards');
+  let removeButton = document.createElement('button').classList.add('remove');
+  let statusButton = document.createElement('button').classList.add('status');
 
   console.log(title);
   console.log(author);
