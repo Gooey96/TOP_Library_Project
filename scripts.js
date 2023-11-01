@@ -41,6 +41,9 @@ libraryForm.addEventListener('submit', (e) => {
   console.log(author); // This is unrelated
   console.log(pages);
   console.log(read);
+
+  let reset = libraryForm.reset();
+  reset;
 })
 
 /////////////////////////////////////////////////////////////////////////////
