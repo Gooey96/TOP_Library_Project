@@ -23,14 +23,14 @@ let libraryForm = document.getElementById('myForm');
 libraryForm.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  // This section i for the input value
+  // This section is to get the input value.
 
   let title = document.getElementById('title').value;
   let author = document.getElementById('author').value;
   let pages = document.getElementById('pages').value;
   let read = document.querySelector('input[type=radio]:checked').value;
 
-  // This section is to display the input value
+  // This section is to display the input value.
 
   let cardsHolder = document.getElementById('cards-holder');
   let newCards = document.createElement('div').classList.add('cards');
