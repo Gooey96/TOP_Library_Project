@@ -36,6 +36,9 @@ libraryForm.addEventListener('submit', (e) => {
   let newCards = document.createElement('div').classList.add('cards');
   let removeButton = document.createElement('button').classList.add('remove');
   let statusButton = document.createElement('button').classList.add('status');
+  let para1 = document.createElement('p').classList.add('text');
+  let para2 = document.createElement('p').classList.add('text');
+  let para3 = document.createElement('p').classList.add('text');
 
   console.log(title);
   console.log(author); // This is unrelated
