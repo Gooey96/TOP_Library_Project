@@ -33,17 +33,37 @@ libraryForm.addEventListener('submit', (e) => {
   // This section is to display the input value.
 
   let cardsHolder = document.getElementById('cards-holder');
-  let newCards = document.createElement('div').classList.add('cards');
-  let removeButton = document.createElement('button').classList.add('remove');
-  let statusButton = document.createElement('button').classList.add('status');
-  let para1 = document.createElement('p').classList.add('text');
-  let para2 = document.createElement('p').classList.add('text');
-  let para3 = document.createElement('p').classList.add('text');
+  let newCards = document.createElement('div');
+  let removeButton = document.createElement('button');
+  let statusButton = document.createElement('button');
+  let para1 = document.createElement('p');
+  let para2 = document.createElement('p');
+  let para3 = document.createElement('p');
+
+  // removeButton.textContent = 'X';
+  // statusButton.textContent = read;
+  // para1.textContent = title;
+  // para2.textContent = author;
+  // para3.textContent = `${pages} pages`;
+
+  // newCards.appendChild(removeButton);
+  // newCards.appendChild(para1);
+  // newCards.appendChild(para2);
+  // newCards.appendChild(para3);
+  // newCards.appendChild(statusButton);
+  // cardsHolder.appendChild(newCards);
 
   console.log(title);
   console.log(author); // This is unrelated
   console.log(pages);
   console.log(read);
+  console.log(cardsHolder);
+  console.log(newCards);
+  console.log(removeButton);
+  console.log(statusButton);
+  console.log(para1);
+  console.log(para2);
+  console.log(para3);
 
   let reset = libraryForm.reset();
   reset;
