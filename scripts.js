@@ -40,21 +40,29 @@ libraryForm.addEventListener('submit', (e) => {
   let para2 = document.createElement('p');
   let para3 = document.createElement('p');
 
-  // removeButton.textContent = 'X';
-  // statusButton.textContent = read;
-  // para1.textContent = title;
-  // para2.textContent = author;
-  // para3.textContent = `${pages} pages`;
+  newCards.classList.add('cards');
+  removeButton.classList.add('remove');
+  statusButton.classList.add('status');
+  para1.classList.add('text');
+  para2.classList.add('text');
+  para3.classList.add('text');
 
-  // newCards.appendChild(removeButton);
-  // newCards.appendChild(para1);
-  // newCards.appendChild(para2);
-  // newCards.appendChild(para3);
-  // newCards.appendChild(statusButton);
-  // cardsHolder.appendChild(newCards);
+  removeButton.textContent = 'X';
+  statusButton.textContent = read;
+  para1.textContent = title;
+  para2.textContent = author;
+  para3.textContent = `${pages} pages`;
 
+  newCards.appendChild(removeButton);
+  newCards.appendChild(para1);
+  newCards.appendChild(para2);
+  newCards.appendChild(para3);
+  newCards.appendChild(statusButton);
+  cardsHolder.appendChild(newCards);
+
+  // This is unrelated
   console.log(title);
-  console.log(author); // This is unrelated
+  console.log(author);
   console.log(pages);
   console.log(read);
   console.log(cardsHolder);
