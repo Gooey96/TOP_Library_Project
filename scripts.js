@@ -61,6 +61,8 @@ libraryForm.addEventListener('submit', (e) => {
   newCards.appendChild(statusButton);
   cardsHolder.appendChild(newCards);
 
+  addBooksToLibrary(title, author, pages, read);
+
   let reset = libraryForm.reset();
   reset;
 })
