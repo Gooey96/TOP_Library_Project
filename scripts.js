@@ -15,6 +15,16 @@ function addBooksToLibrary(title, author, pages, read) {
   myLibrary.push(createdBooks);
 }
 
+let removeAllButton = document.querySelector('.nuke');
+
+removeAllButton.addEventListener('click', () => {
+  let cards = document.querySelectorAll('.cards');
+
+  cards.forEach(card => {
+    card.remove();
+  })
+})
+
 ////////////////////////////////////////////////////////////////////////////
 
 // Not Finished yet :)
