@@ -60,19 +60,6 @@ libraryForm.addEventListener('submit', (e) => {
   newCards.appendChild(statusButton);
   cardsHolder.appendChild(newCards);
 
-  // This is unrelated
-  console.log(title);
-  console.log(author);
-  console.log(pages);
-  console.log(read);
-  console.log(cardsHolder);
-  console.log(newCards);
-  console.log(removeButton);
-  console.log(statusButton);
-  console.log(para1);
-  console.log(para2);
-  console.log(para3);
-
   let reset = libraryForm.reset();
   reset;
 })
