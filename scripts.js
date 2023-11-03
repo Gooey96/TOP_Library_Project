@@ -25,6 +25,26 @@ removeAllButton.addEventListener('click', () => {
   })
 })
 
+let readButton = document.querySelectorAll('.status');
+
+readButton.forEach(button => {
+  button.addEventListener('click', (e) => {
+    let status = button.innerHTML;
+    let readCounter = document.getElementById('C-READ').value;
+    let unreadCounter = document.getElementById('C-UNREAD').value;
+    let totalCounter = document.getElementById('C-TOTAL').value;
+  
+    if (status == 'Done Reading') {
+      console.log('Done');
+    } else {
+      console.log('Not Done');
+    }  // Not Finished
+       // having dinner 
+  
+    // console.log(status);
+  })
+})
+
 ////////////////////////////////////////////////////////////////////////////
 
 // Not Finished yet :)
