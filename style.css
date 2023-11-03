@@ -118,7 +118,7 @@ input[type=number]:focus {
   font-size: larger;
 }
 
-.header-container button {
+.nuke {
   width: 130px;
   height: 60px;
   font-size: large;
