@@ -38,10 +38,7 @@ readButton.forEach(button => {
       console.log('Done');
     } else {
       console.log('Not Done');
-    }  // Not Finished
-       // having dinner 
-  
-    // console.log(status);
+    }
   })
 })
 
