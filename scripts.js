@@ -25,29 +25,29 @@ removeAllButton.addEventListener('click', () => {
   })
 })
 
-let readButton = document.querySelectorAll('.status');
+// let readButton = document.querySelectorAll('.status');
 
-readButton.forEach(button => {
-  button.addEventListener('click', (e) => {
-    let status = button.innerHTML;
-    let readCounter = document.getElementById('C-READ').textContent;
-    let unreadCounter = document.getElementById('C-UNREAD').textContent;
-    let totalCounter = document.getElementById('C-TOTAL').textContent;
-    let counter = 0; // Need to remove the .textContent inside variable
+// readButton.forEach(button => {
+//   button.addEventListener('click', (e) => {
+//     let status = button.innerHTML;
+//     let readCounter = document.getElementById('C-READ').textContent;
+//     let unreadCounter = document.getElementById('C-UNREAD').textContent;
+//     let totalCounter = document.getElementById('C-TOTAL').textContent;
+//     let counter = 0; // Need to remove the .textContent inside variable
   
-    if (status == 'Done Reading') {
-      // console.log('Done');
-      button.textContent = "Haven't Read";
-      counter++ // Not Finished
-      unreadCounter.textContent = counter;
-      console.log(unreadCounter);
-    } else {
-      // console.log('Not Done');
-      button.textContent = "Done Reading";
-      console.log(readCounter);
-    }
-  })
-})
+//     if (status == 'Done Reading') {
+//       // console.log('Done');
+//       button.textContent = "Haven't Read";
+//       counter++ // Not Finished
+//       unreadCounter.textContent = counter;
+//       console.log(unreadCounter);
+//     } else {
+//       // console.log('Not Done');
+//       button.textContent = "Done Reading";
+//       console.log(readCounter);
+//     }
+//   })
+// })
 
 ////////////////////////////////////////////////////////////////////////////
 
