@@ -30,9 +30,9 @@ let readButton = document.querySelectorAll('.status');
 readButton.forEach(button => {
   button.addEventListener('click', (e) => {
     let status = button.innerHTML;
-    let readCounter = document.getElementById('C-READ').value;
-    let unreadCounter = document.getElementById('C-UNREAD').value;
-    let totalCounter = document.getElementById('C-TOTAL').value;
+    let readCounter = document.getElementById('C-READ').textContent;
+    let unreadCounter = document.getElementById('C-UNREAD').textContent;
+    let totalCounter = document.getElementById('C-TOTAL').textContent;
   
     if (status == 'Done Reading') {
       // console.log('Done');
