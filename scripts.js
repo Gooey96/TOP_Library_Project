@@ -33,7 +33,7 @@ readButton.forEach(button => {
     let readCounter = document.getElementById('C-READ').textContent;
     let unreadCounter = document.getElementById('C-UNREAD').textContent;
     let totalCounter = document.getElementById('C-TOTAL').textContent;
-    let counter = 0;
+    let counter = 0; // Need to remove the .textContent inside variable
   
     if (status == 'Done Reading') {
       // console.log('Done');
