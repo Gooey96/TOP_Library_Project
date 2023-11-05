@@ -35,9 +35,11 @@ readButton.forEach(button => {
     let totalCounter = document.getElementById('C-TOTAL').value;
   
     if (status == 'Done Reading') {
-      console.log('Done');
+      // console.log('Done');
+      button.textContent = "Haven't Read"
     } else {
-      console.log('Not Done');
+      // console.log('Not Done');
+      button.textContent = "Done Reading"
     }
   })
 })
