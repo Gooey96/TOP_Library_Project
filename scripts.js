@@ -15,6 +15,8 @@ function addBooksToLibrary(title, author, pages, read) {
   myLibrary.push(createdBooks);
 }
 
+let cardsHolder = document.getElementById('cards-holder');
+
 let removeAllButton = document.querySelector('.nuke');
 
 removeAllButton.addEventListener('click', () => {
@@ -67,7 +69,6 @@ libraryForm.addEventListener('submit', (e) => {
 
   // This section is to display the input value.
 
-  let cardsHolder = document.getElementById('cards-holder');
   let newCards = document.createElement('div');
   let removeButton = document.createElement('button');
   let statusButton = document.createElement('button');
