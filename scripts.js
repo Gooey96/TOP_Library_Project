@@ -37,9 +37,11 @@ readButton.forEach(button => {
     if (status == 'Done Reading') {
       // console.log('Done');
       button.textContent = "Haven't Read"
+      console.log(unreadCounter);
     } else {
       // console.log('Not Done');
       button.textContent = "Done Reading"
+      console.log(readCounter);
     }
   })
 })
