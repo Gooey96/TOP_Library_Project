@@ -33,10 +33,13 @@ readButton.forEach(button => {
     let readCounter = document.getElementById('C-READ').textContent;
     let unreadCounter = document.getElementById('C-UNREAD').textContent;
     let totalCounter = document.getElementById('C-TOTAL').textContent;
+    let counter = 0;
   
     if (status == 'Done Reading') {
       // console.log('Done');
       button.textContent = "Haven't Read";
+      counter++ // Not Finished
+      unreadCounter.textContent = counter;
       console.log(unreadCounter);
     } else {
       // console.log('Not Done');
