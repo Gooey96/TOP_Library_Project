@@ -23,6 +23,10 @@ removeAllButton.addEventListener('click', () => {
   cards.forEach(card => {
     card.remove();
   })
+
+  readCounter.textContent = 0;
+  unreadCounter.textContent = 0;
+  totalCounter.textContent = 0;
 })
 
 let cardsHolder = document.getElementById('cards-holder');
