@@ -105,7 +105,7 @@ libraryForm.addEventListener('submit', (e) => {
   if(read == "Done Reading") {
     r_Counter_Num++
     readCounter.textContent = r_Counter_Num;
-  }else { // Not entirely sure this is right or not
+  }else {
     u_Counter_Num++
     unreadCounter.textContent = u_Counter_Num;
   }
