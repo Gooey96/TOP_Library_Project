@@ -15,7 +15,14 @@ function addBooksToLibrary(title, author, pages, read) {
   myLibrary.push(createdBooks);
 }
 
+let cardsHolder = document.getElementById('cards-holder');
+let readCounter = document.getElementById('C-READ');
+let unreadCounter = document.getElementById('C-UNREAD');
+let totalCounter = document.getElementById('C-TOTAL');
 let removeAllButton = document.querySelector('.nuke');
+let r_Counter_Num = 0;
+let u_Counter_Num = 0;
+let to_Counter_Num = 0;
 
 removeAllButton.addEventListener('click', () => {
   let cards = document.querySelectorAll('.cards');
@@ -28,14 +35,6 @@ removeAllButton.addEventListener('click', () => {
   unreadCounter.textContent = 0;
   totalCounter.textContent = 0;
 })
-
-let cardsHolder = document.getElementById('cards-holder');
-let readCounter = document.getElementById('C-READ');
-let unreadCounter = document.getElementById('C-UNREAD');
-let totalCounter = document.getElementById('C-TOTAL');
-let r_Counter_Num = 0;
-let u_Counter_Num = 0;
-let to_Counter_Num = 0;
 
 cardsHolder.addEventListener('click', (e) => {
   const target = e.target.closest('.status');
