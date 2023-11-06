@@ -117,6 +117,14 @@ libraryForm.addEventListener('submit', (e) => {
 
   addBooksToLibrary(title, author, pages, read);
 
+  if(read == "Done Reading") {
+    r_Counter_Num++
+    readCounter.textContent = r_Counter_Num;
+  }else { // Not entirely sure this is right or not
+    u_Counter_Num++
+    unreadCounter.textContent = u_Counter_Num;
+  }
+
   let reset = libraryForm.reset();
   reset;
 })
