@@ -41,8 +41,16 @@ cardsHolder.addEventListener('click', (e) => {
 
   if(target.textContent == "Done Reading"){
     target.textContent = "Haven't Read";
+    r_Counter_Num--
+    readCounter.textContent = r_Counter_Num;
+    u_Counter_Num++
+    unreadCounter.textContent = u_Counter_Num;
   }else {
     target.textContent = "Done Reading";
+    r_Counter_Num++
+    readCounter.textContent = r_Counter_Num;
+    u_Counter_Num--
+    unreadCounter.textContent = u_Counter_Num;
   }
 })
 
