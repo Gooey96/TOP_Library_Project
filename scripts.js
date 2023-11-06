@@ -29,7 +29,8 @@ let cardsHolder = document.getElementById('cards-holder');
 let readCounter = document.getElementById('C-READ');
 let unreadCounter = document.getElementById('C-UNREAD');
 let totalCounter = document.getElementById('C-TOTAL');
-let counter = 0;
+let rCounter = 0;
+let unCounter = 0;
 
 cardsHolder.addEventListener('click', (e) => {
   const target = e.target.closest('.status');
