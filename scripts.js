@@ -32,9 +32,6 @@ let totalCounter = document.getElementById('C-TOTAL');
 let r_Counter_Num = 0;
 let u_Counter_Num = 0;
 let to_Counter_Num = 0;
-readCounter.textContent = r_Counter_Num;
-unreadCounter.textContent = u_Counter_Num;
-totalCounter.textContent = to_Counter_Num;
 
 cardsHolder.addEventListener('click', (e) => {
   const target = e.target.closest('.status');
