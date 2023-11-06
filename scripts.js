@@ -35,10 +35,8 @@ cardsHolder.addEventListener('click', (e) => {
   const target = e.target.closest('.status');
 
   if(target.textContent == "Done Reading"){
-    // console.log('Yes');
     target.textContent = "Haven't Read";
   }else {
-    // console.log('No');
     target.textContent = "Done Reading";
   }
 })
