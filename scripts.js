@@ -100,6 +100,8 @@ libraryForm.addEventListener('submit', (e) => {
 
   addBooksToLibrary(title, author, pages, read);
 
+  totalCounter.textContent = myLibrary.length;
+
   if(read == "Done Reading") {
     r_Counter_Num++
     readCounter.textContent = r_Counter_Num;
