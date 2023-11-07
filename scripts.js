@@ -22,7 +22,6 @@ let totalCounter = document.getElementById('C-TOTAL');
 let removeAllButton = document.querySelector('.nuke');
 let r_Counter_Num = 0;
 let u_Counter_Num = 0;
-let to_Counter_Num = 0;
 
 removeAllButton.addEventListener('click', () => {
   let cards = document.querySelectorAll('.cards');
