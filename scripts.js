@@ -53,6 +53,12 @@ cardsHolder.addEventListener('click', (e) => {
   }
 })
 
+cardsHolder.addEventListener('click', (e) => {
+  const target = e.target.closest('.remove');
+
+  console.log(target.textContent);
+})
+
 ////////////////////////////////////////////////////////////////////////////
 
 // Not Finished yet :)
