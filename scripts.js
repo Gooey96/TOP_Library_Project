@@ -56,8 +56,15 @@ cardsHolder.addEventListener('click', (e) => {
 cardsHolder.addEventListener('click', (e) => {
   const target = e.target.closest('.remove');
   const deleteCounter = target.parentElement.lastChild.textContent;
+  const indexNumber = target.parentElement.dataset.index;
+
+  // Need to reset the data-attribute value when delete
 
   target.parentElement.remove();
+
+  myLibrary.splice(indexNumber,1);
+
+  totalCounter.textContent = myLibrary.length;
 
   if(deleteCounter == "Done Reading") {
     r_Counter_Num--
