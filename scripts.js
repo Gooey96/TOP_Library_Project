@@ -58,6 +58,7 @@ cardsHolder.addEventListener('click', (e) => {
   const deleteCounter = target.parentElement.lastChild.textContent;
   const indexNumber = target.parentElement.dataset.index;
 
+  // Not finished yet but close :)
   // Need to reset the data-attribute value when delete
 
   target.parentElement.remove();
