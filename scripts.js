@@ -55,6 +55,17 @@ cardsHolder.addEventListener('click', (e) => {
 
 cardsHolder.addEventListener('click', (e) => {
   const target = e.target.closest('.remove');
+  const deleteCounter = target.parentElement.lastChild.textContent;
+
+  target.parentElement.remove();
+
+  if(deleteCounter == "Done Reading") {
+    r_Counter_Num--
+    readCounter.textContent = r_Counter_Num;
+  }else {
+    u_Counter_Num--
+    unreadCounter.textContent = u_Counter_Num;
+  }
 
   // console.log(target.textContent);
 })
