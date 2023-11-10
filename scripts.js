@@ -87,8 +87,6 @@ cardsHolder.addEventListener('click', (e) => {
   })
 })
 
-////////////////////////////////////////////////////////////////////////////
-
 let libraryForm = document.getElementById('myForm');
 
 libraryForm.addEventListener('submit', (e) => {
@@ -149,8 +147,6 @@ libraryForm.addEventListener('submit', (e) => {
   let reset = libraryForm.reset();
   reset;
 })
-
-/////////////////////////////////////////////////////////////////////////////
 
 // const book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "208 pages", "not read yet");
 // const book2 = new Book("The Hobbit", "J.R.R. Tolkien", "295 pages", "not read yet");
