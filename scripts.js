@@ -33,6 +33,10 @@ removeAllButton.addEventListener('click', () => {
   readCounter.textContent = 0;
   unreadCounter.textContent = 0;
   totalCounter.textContent = 0;
+
+  myLibrary = [];
+  r_Counter_Num = 0;
+  u_Counter_Num = 0;
 })
 
 cardsHolder.addEventListener('click', (e) => {
@@ -84,8 +88,6 @@ cardsHolder.addEventListener('click', (e) => {
 })
 
 ////////////////////////////////////////////////////////////////////////////
-
-// Not Finished yet :)
 
 let libraryForm = document.getElementById('myForm');
 
