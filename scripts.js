@@ -57,9 +57,8 @@ cardsHolder.addEventListener('click', (e) => {
   const target = e.target.closest('.remove');
   const deleteCounter = target.parentElement.lastChild.textContent;
   const indexNumber = target.parentElement.dataset.index;
-
-  // Not finished yet but close :)
-  // Need to reset the data-attribute value when delete
+  const allCards = document.querySelectorAll('.cards');
+  let newDataValue = "";
 
   target.parentElement.remove();
 
@@ -75,7 +74,13 @@ cardsHolder.addEventListener('click', (e) => {
     unreadCounter.textContent = u_Counter_Num;
   }
 
-  // console.log(target.textContent);
+  myLibrary.forEach(book => {
+    newDataValue = myLibrary.indexOf(book);
+  })
+
+  allCards.forEach(card => {
+    card.dataset.index = newDataValue;
+  })
 })
 
 ////////////////////////////////////////////////////////////////////////////
