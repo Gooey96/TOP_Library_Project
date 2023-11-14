@@ -15,16 +15,16 @@ function addBooksToLibrary(title, author, pages, read) {
   myLibrary.push(createdBooks);
 }
 
-let cardsHolder = document.getElementById('cards-holder');
-let readCounter = document.getElementById('C-READ');
-let unreadCounter = document.getElementById('C-UNREAD');
-let totalCounter = document.getElementById('C-TOTAL');
-let removeAllButton = document.querySelector('.nuke');
+const cardsHolder = document.getElementById('cards-holder');
+const readCounter = document.getElementById('C-READ');
+const unreadCounter = document.getElementById('C-UNREAD');
+const totalCounter = document.getElementById('C-TOTAL');
+const removeAllButton = document.querySelector('.nuke');
 let r_Counter_Num = 0;
 let u_Counter_Num = 0;
 
 removeAllButton.addEventListener('click', () => {
-  let cards = document.querySelectorAll('.cards');
+  const cards = document.querySelectorAll('.cards');
 
   cards.forEach(card => {
     card.remove();
@@ -87,26 +87,26 @@ function removeCard(event) {
   }
 }
 
-let libraryForm = document.getElementById('myForm');
+const libraryForm = document.getElementById('myForm');
 
 libraryForm.addEventListener('submit', (e) => {
   e.preventDefault();
 
   // This section is to get the input value.
 
-  let title = document.getElementById('title').value;
-  let author = document.getElementById('author').value;
-  let pages = document.getElementById('pages').value;
-  let read = document.querySelector('input[type=radio]:checked').value;
+  const title = document.getElementById('title').value;
+  const author = document.getElementById('author').value;
+  const pages = document.getElementById('pages').value;
+  const read = document.querySelector('input[type=radio]:checked').value;
 
   // This section is to display the input value.
 
-  let newCards = document.createElement('div');
-  let removeButton = document.createElement('button');
-  let statusButton = document.createElement('button');
-  let para1 = document.createElement('p');
-  let para2 = document.createElement('p');
-  let para3 = document.createElement('p');
+  const newCards = document.createElement('div');
+  const removeButton = document.createElement('button');
+  const statusButton = document.createElement('button');
+  const para1 = document.createElement('p');
+  const para2 = document.createElement('p');
+  const para3 = document.createElement('p');
 
   newCards.classList.add('cards');
   removeButton.classList.add('remove');
