@@ -64,9 +64,17 @@ cardsHolder.addEventListener('click', (e) => {
   const allCards = document.querySelectorAll('.cards');
   let newDataValue = "";
 
-  target.parentElement.remove();
-
   myLibrary.splice(indexNumber,1);
+
+  myLibrary.forEach(book => {
+    newDataValue = myLibrary.indexOf(book);
+  })
+
+  allCards.forEach(card => {
+    card.dataset.index = newDataValue;
+  })
+
+  target.parentElement.remove();
 
   totalCounter.textContent = myLibrary.length;
 
@@ -77,14 +85,6 @@ cardsHolder.addEventListener('click', (e) => {
     u_Counter_Num--
     unreadCounter.textContent = u_Counter_Num;
   }
-
-  myLibrary.forEach(book => {
-    newDataValue = myLibrary.indexOf(book);
-  })
-
-  allCards.forEach(card => {
-    card.dataset.index = newDataValue;
-  })
 })
 
 let libraryForm = document.getElementById('myForm');
