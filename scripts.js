@@ -39,8 +39,8 @@ removeAllButton.addEventListener('click', () => {
   u_Counter_Num = 0;
 })
 
-cardsHolder.addEventListener('click', (e) => {
-  const target = e.target.closest('.status');
+function readStatus(event) {
+  const target = event.target;
 
   if(target.textContent == "Done Reading"){
     target.textContent = "Haven't Read";
@@ -55,10 +55,10 @@ cardsHolder.addEventListener('click', (e) => {
     u_Counter_Num--
     unreadCounter.textContent = u_Counter_Num;
   }
-})
+}
 
-cardsHolder.addEventListener('click', (e) => {
-  const target = e.target.closest('.remove');
+function removeCard(event) {
+  const target = event.target;
   const deleteCounter = target.parentElement.lastChild.textContent;
   const indexNumber = target.parentElement.dataset.index;
   const allCards = document.querySelectorAll('.cards');
@@ -85,7 +85,7 @@ cardsHolder.addEventListener('click', (e) => {
     u_Counter_Num--
     unreadCounter.textContent = u_Counter_Num;
   }
-})
+}
 
 let libraryForm = document.getElementById('myForm');
 
@@ -120,6 +120,9 @@ libraryForm.addEventListener('submit', (e) => {
   para1.textContent = title;
   para2.textContent = author;
   para3.textContent = `${pages} pages`;
+
+  removeButton.addEventListener('click', removeCard);
+  statusButton.addEventListener('click', readStatus);
 
   newCards.appendChild(removeButton);
   newCards.appendChild(para1);
