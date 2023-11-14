@@ -15,7 +15,6 @@ function addBooksToLibrary(title, author, pages, read) {
   myLibrary.push(createdBooks);
 }
 
-const cardsHolder = document.getElementById('cards-holder');
 const readCounter = document.getElementById('C-READ');
 const unreadCounter = document.getElementById('C-UNREAD');
 const totalCounter = document.getElementById('C-TOTAL');
@@ -101,6 +100,7 @@ libraryForm.addEventListener('submit', (e) => {
 
   // This section is to display the input value.
 
+  const cardsHolder = document.getElementById('cards-holder');
   const newCards = document.createElement('div');
   const removeButton = document.createElement('button');
   const statusButton = document.createElement('button');
