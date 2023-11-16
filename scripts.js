@@ -60,22 +60,18 @@ function removeCard(event) {
   const target = event.target;
   const deleteCounter = target.parentElement.lastChild.textContent;
   const indexNumber = target.parentElement.dataset.index;
-  const allCards = document.querySelectorAll('.cards');
-  let newDataValue = "";
 
   myLibrary.splice(indexNumber,1);
-
-  myLibrary.forEach(book => {
-    newDataValue = myLibrary.indexOf(book);
-  })
-
-  allCards.forEach(card => {
-    card.dataset.index = newDataValue;
-  })
 
   target.parentElement.remove();
 
   totalCounter.textContent = myLibrary.length;
+
+  const allCards = document.querySelectorAll('.cards');
+
+  for(let i = 0; i < allCards.length; i++){
+    allCards[i].dataset.index = i;
+  }
 
   if(deleteCounter == "Done Reading") {
     r_Counter_Num--
