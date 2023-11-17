@@ -131,9 +131,7 @@ libraryForm.addEventListener('submit', (e) => {
 
   totalCounter.textContent = myLibrary.length;
 
-  myLibrary.forEach(book => {
-    newCards.dataset.index = myLibrary.indexOf(book);
-  })
+  newCards.dataset.index = myLibrary.length - 1;
 
   if(read == "Done Reading") {
     r_Counter_Num++
